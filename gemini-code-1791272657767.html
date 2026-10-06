@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>蔡承恩｜出版經理人・地方文史與獨立出版</title>
+  <meta name="description" content="蔡承恩，20年出版專業生涯，佐井編集所總編輯。具備300冊出版品統籌實績，專注於圖書企劃、編輯實務、地方刊物與文史轉譯。">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Noto Serif TC & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Noto Serif TC"', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            paper: '#FBFBFA',
+            ink: '#1F2937',
+            accent: '#2B4C7E',
+            accentLight: '#EBF1F6'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-paper text-ink font-sans antialiased selection:bg-accentLight selection:text-accent">
+
+  <!-- 導覽列 -->
+  <header class="sticky top-0 z-50 bg-paper/90 backdrop-blur-md border-b border-gray-200/60 transition-all">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-serif font-bold text-lg tracking-wide text-gray-900">蔡承恩</a>
+      <nav class="hidden sm:flex space-x-8 text-sm font-medium text-gray-600">
+        <a href="#about" class="hover:text-accent transition-colors">關於</a>
+        <a href="#experience" class="hover:text-accent transition-colors">工作經歷</a>
+        <a href="#education" class="hover:text-accent transition-colors">學歷研究</a>
+        <a href="#highlights" class="hover:text-accent transition-colors">代表專案</a>
+        <a href="#teaching" class="hover:text-accent transition-colors">講座教學</a>
+        <a href="#contact" class="hover:text-accent transition-colors">聯絡</a>
+      </nav>
+      <a href="#contact" class="text-xs tracking-wider uppercase px-4 py-2 rounded-full border border-gray-300 text-gray-700 hover:border-accent hover:text-accent transition-colors">
+        聯絡我
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12 space-y-24">
+
+    <!-- 主視覺區 (Hero Section) -->
+    <section id="hero" class="pt-8 sm:pt-16 pb-8 border-b border-gray-200">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+        <div class="md:col-span-8 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accentLight text-accent text-xs font-medium">
+            <span class="w-2 h-2 rounded-full bg-accent"></span>
+            佐井編集所 總編輯｜資深出版經理人
+          </div>
+          <h1 class="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
+            以編採梳理地方，<br class="hidden sm:block">用文字刻劃時代的深度。
+          </h1>
+          <p class="text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl">
+            歷經出版社執行編輯、主編、產品經理到獨立創辦工作室。20 年出版生涯，累積統籌、企劃與編輯發行出版品逾 300 冊。長年深耕地方刊物、田野調查、圖文出版與文化轉譯實務。
+          </p>
+          <div class="flex flex-wrap gap-4 pt-2">
+            <a href="#experience" class="px-5 py-2.5 rounded-lg bg-gray-900 text-white text-sm font-medium hover:bg-accent transition-colors">
+              查看工作履歷
+            </a>
+            <a href="mailto:sai.henshujo@gmail.com" class="px-5 py-2.5 rounded-lg border border-gray-300 text-gray-700 text-sm font-medium hover:border-gray-400 transition-colors">
+              sai.henshujo@gmail.com
+            </a>
+          </div>
+        </div>
+        <!-- 數據統計小卡 -->
+        <div class="md:col-span-4 bg-white p-6 rounded-2xl border border-gray-200 shadow-sm space-y-6">
+          <div class="border-b border-gray-100 pb-4">
+            <p class="text-xs uppercase text-gray-400 font-semibold tracking-wider">出版資歷</p>
+            <p class="text-3xl font-serif font-bold text-gray-900 mt-1">20+ <span class="text-sm font-sans font-normal text-gray-500">年</span></p>
+          </div>
+          <div class="border-b border-gray-100 pb-4">
+            <p class="text-xs uppercase text-gray-400 font-semibold tracking-wider">統籌發行出版品</p>
+            <p class="text-3xl font-serif font-bold text-gray-900 mt-1">300+ <span class="text-sm font-sans font-normal text-gray-500">冊</span></p>
+          </div>
+          <div>
+            <p class="text-xs uppercase text-gray-400 font-semibold tracking-wider">核心領域</p>
+            <p class="text-sm text-gray-700 font-medium mt-1">地方刊物・圖書企劃・文史田調・版權經紀</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 關於與核心理念 (About) -->
+    <section id="about" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <h2 class="font-serif text-2xl font-bold text-gray-900">自我介紹</h2>
+        <div class="h-px bg-gray-200 flex-1"></div>
+      </div>
+      <div class="prose prose-gray max-w-none text-gray-600 leading-relaxed space-y-4">
+        <p>
+          大學主修臺灣文學，奠定了對語言質地與土地敘事的敏銳度。自漢湘幼福出版集團基層編輯起步，歷經松崗電腦圖書、城邦媒體集團《DIGIPHOTO》雜誌攝影書系、海鴿文化及華成圖書主編職務，完整歷練選題企劃、作者開發、版權洽談、設計整合至經銷發行之全流程作業。
+        </p>
+        <p>
+          因對土地文史的熱情，曾創辦「享活文化」獨立發行地方刊物《永和享活誌》，親身實踐自企劃、編採、攝影、印務至廣告通路的完整產業鏈。2017 年成立「佐井編集所」，持續承接地方專案採訪、自費出版統籌與文化編輯工作；並先後於南華大學出版事業管理所及臺灣師範大學圖文傳播所完成研究，將實務經驗昇華為具系統性的理論與教學分享。
+        </p>
+      </div>
+
+      <!-- 專業技能標籤 -->
+      <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="p-4 rounded-xl bg-white border border-gray-200/80">
+          <h3 class="font-semibold text-gray-900 text-sm mb-2">出版經營與編輯實務</h3>
+          <p class="text-xs text-gray-500 leading-relaxed">書籍選題、版權經紀（簡體/電子書）、印務控管、通路行銷與編輯部管理</p>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-gray-200/80">
+          <h3 class="font-semibold text-gray-900 text-sm mb-2">地方創生與文史調查</h3>
+          <p class="text-xs text-gray-500 leading-relaxed">社區刊物創辦發行、田野訪查、社區導覽規劃、城市空間走讀設計</p>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-gray-200/80">
+          <h3 class="font-semibold text-gray-900 text-sm mb-2">專案編採與影像紀錄</h3>
+          <p class="text-xs text-gray-500 leading-relaxed">深度人物採訪、專題報導撰寫、專案紀實攝影、展覽策劃</p>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-gray-200/80">
+          <h3 class="font-semibold text-gray-900 text-sm mb-2">專業工具與排版製版</h3>
+          <p class="text-xs text-gray-500 leading-relaxed">InDesign、Photoshop、Illustrator、Premiere、Office 辦公套件</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 工作經歷 (Experience) -->
+    <section id="experience" class="space-y-8">
+      <div class="flex items-center gap-3">
+        <h2 class="font-serif text-2xl font-bold text-gray-900">工作經歷</h2>
+        <div class="h-px bg-gray-200 flex-1"></div>
+      </div>
+
+      <div class="relative border-l border-gray-200 pl-6 sm:pl-8 space-y-10 ml-2">
+
+        <!-- 經歷 1 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 border-white bg-accent"></div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
+            <h3 class="text-lg font-bold text-gray-900">總編輯 ｜ 佐井編集所</h3>
+            <span class="text-xs font-mono text-gray-500">2017/03 – 至今</span>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            成立獨立出版工作室。主要承接專案採訪、特約編輯、專題攝影，並經營作者自費出版顧問，協助獨立作者規劃、製作與發行實體與數位出版品。
+          </p>
+        </div>
+
+        <!-- 經歷 2 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 border-white bg-gray-400 group-hover:bg-accent transition-colors"></div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
+            <h3 class="text-lg font-bold text-gray-900">主編 ｜ 華成圖書</h3>
+            <span class="text-xs font-mono text-gray-500">2013/11 – 2017/03</span>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            負責全公司出版進度控管、選題開發與作者維繫；主導生活旅遊、心理成長等多元書系；推動國內電子書平台版權拓展（包含華藝、讀書吧、HyRead 等累計超過百本授權）；統籌新書行銷與通路異業洽談。
+          </p>
+        </div>
+
+        <!-- 經歷 3 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 border-white bg-gray-400 group-hover:bg-accent transition-colors"></div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
+            <h3 class="text-lg font-bold text-gray-900">主編 ｜ 海鴿文化</h3>
+            <span class="text-xs font-mono text-gray-500">2012/06 – 2013/06</span>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            把關公司出版品品質，撰寫書籍核心文案、下標規劃、封面視覺設計整合，並協調外包編輯與編譯人力調度。
+          </p>
+        </div>
+
+        <!-- 經歷 4 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 border-white bg-gray-400 group-hover:bg-accent transition-colors"></div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
+            <h3 class="text-lg font-bold text-gray-900">資深編輯 ｜ 城邦媒體集團（DIGIPHOTO）</h3>
+            <span class="text-xs font-mono text-gray-500">2009/06 – 2009/12</span>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            獲邀任職於臺灣知名攝影雜誌團隊，主責攝影類專業圖書開發與作者經營，並支援雙月刊專題撰述與網站內容規劃。
+          </p>
+        </div>
+
+        <!-- 經歷 5 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 border-white bg-gray-400 group-hover:bg-accent transition-colors"></div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
+            <h3 class="text-lg font-bold text-gray-900">產品經理 ｜ 松崗電腦圖書</h3>
+            <span class="text-xs font-mono text-gray-500">2008/10 – 2009/06</span>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            開創全新攝影與視覺設計類書系，從書系定位、版權簽訂、作者招募、審稿至出版發行全面主導；兼管中小學資訊類教材線。
+          </p>
+        </div>
+
+        <!-- 經歷 6 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 border-white bg-gray-400 group-hover:bg-accent transition-colors"></div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
+            <h3 class="text-lg font-bold text-gray-900">創辦人兼經理 ｜ 享活文化事業出版社</h3>
+            <span class="text-xs font-mono text-gray-500">2006/08 – 2008/10</span>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            創辦獨立社區刊物《永和享活誌》，統籌刊物企劃、田野採訪、撰稿、排版至印務與廣告行銷業務，獲各大媒體報導關注。
+          </p>
+        </div>
+
+        <!-- 經歷 7 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full border-2 border-white bg-gray-400 group-hover:bg-accent transition-colors"></div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
+            <h3 class="text-lg font-bold text-gray-900">執行編輯 ｜ 漢湘幼福出版集團</h3>
+            <span class="text-xs font-mono text-gray-500">2005/08 – 2006/08</span>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            負責各類中文圖書執行編輯，奠定紮實之稿件梳理、校對、版型掌控與兩岸編輯協同作業能力。
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 學歷與研究成果 (Education & Research) -->
+    <section id="education" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <h2 class="font-serif text-2xl font-bold text-gray-900">學歷背景與學術研究</h2>
+        <div class="h-px bg-gray-200 flex-1"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl border border-gray-200">
+          <span class="text-xs font-mono text-gray-400">2019/09 – 2025/01</span>
+          <h3 class="text-base font-bold text-gray-900 mt-1">國立臺灣師範大學</h3>
+          <p class="text-xs text-accent font-medium mt-0.5">圖文傳播學系研究所・工學碩士</p>
+          <div class="mt-4 text-xs text-gray-600 space-y-2">
+            <p><strong>論文：</strong>〈地方創生：《獨立出版社區刊物》之創作論述〉</p>
+            <p><strong>專書：</strong>《獨立出版社區刊物》（2025）</p>
+            <p><strong>期刊：</strong>〈臺灣免費報刊讀者使用與滿足之研究〉（2020）</p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-gray-200">
+          <span class="text-xs font-mono text-gray-400">2006/09 – 2010/06</span>
+          <h3 class="text-base font-bold text-gray-900 mt-1">南華大學</h3>
+          <p class="text-xs text-accent font-medium mt-0.5">出版事業管理研究所・管理學碩士</p>
+          <div class="mt-4 text-xs text-gray-600 space-y-2">
+            <p><strong>論文：</strong>〈臺灣地區攝影雜誌內容分析之研究〉</p>
+            <p>系統性梳理臺灣攝影出版市場與讀者視覺消費趨勢。</p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-gray-200">
+          <span class="text-xs font-mono text-gray-400">2001/09 – 2005/06</span>
+          <h3 class="text-base font-bold text-gray-900 mt-1">真理大學</h3>
+          <p class="text-xs text-accent font-medium mt-0.5">臺灣文學系・文學士</p>
+          <div class="mt-4 text-xs text-gray-600 space-y-2">
+            <p><strong>論文：</strong>〈朱天文電影中青少年文化〉</p>
+            <p>奠定臺灣當代文學、文本分析與文字敏感度。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 精選專案與刊物 (Highlights) -->
+    <section id="highlights" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <h2 class="font-serif text-2xl font-bold text-gray-900">代表刊物與政府專案統籌</h2>
+        <div class="h-px bg-gray-200 flex-1"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl border border-gray-200 space-y-3">
+          <h3 class="font-bold text-gray-900 text-base">獨立刊物發行與社大指導</h3>
+          <ul class="text-xs text-gray-600 space-y-1.5 list-disc list-inside">
+            <li>創辦獨立社區刊物《永和享活誌》（累計 13 期）</li>
+            <li>指導臺北市萬華社區大學製作《艋舺傳奇》（6 期）</li>
+            <li>指導臺北市大安社區大學製作《Hello 大安》（2 期）</li>
+            <li>城邦文化《DIGIPHOTO》攝影雙月刊文稿與專案撰寫</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-gray-200 space-y-3">
+          <h3 class="font-bold text-gray-900 text-base">公部門與文創專案統籌</h3>
+          <ul class="text-xs text-gray-600 space-y-1.5 list-disc list-inside">
+            <li>《來去看城內摩登（英／日文版）》（臺北市觀傳局）</li>
+            <li>《臺北縣社區營造成果專輯》出版計畫（臺北縣文化局）</li>
+            <li>《新北有機通訊》編撰（新北市政府農業局）</li>
+            <li>永和區和平里文史調查計畫（文建會）</li>
+            <li>永和五十周年元旦特刊編撰</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 講座與教學 (Teaching & Lectures) -->
+    <section id="teaching" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <h2 class="font-serif text-2xl font-bold text-gray-900">講座講學與教學經歷</h2>
+        <div class="h-px bg-gray-200 flex-1"></div>
+      </div>
+      <div class="bg-white p-6 rounded-xl border border-gray-200 space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-xs text-gray-600">
+          <div>
+            <h4 class="font-bold text-gray-900 mb-2">大學與機構專題演講</h4>
+            <ul class="space-y-1.5">
+              <li>• 國立臺北教育大學語文創作系：書籍排版設計概要</li>
+              <li>• 私立淡江大學資圖系：從自己生活的城鎮談社區與文創</li>
+              <li>• 私立元智大學中語系：書籍版面設計概要</li>
+              <li>• 新北市立圖書館：新北走讀 BOOK 思議文化探索</li>
+              <li>• 獨立媒體學院：社區觀察與地方文史</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-gray-900 mb-2">社區大學與實務培訓課程</h4>
+            <ul class="space-y-1.5">
+              <li>• 勞委會職訓局：大專人力職前訓練講師</li>
+              <li>• 萬華／大安／中正／士林／信義社大：刊物編採與社區故事實作</li>
+              <li>• 臺北市都市更新處：臺北市社區營造人才培訓</li>
+              <li>• 中華民國藥師公會全聯會：藥師週刊成長營專業講師</li>
+              <li>• 國語日報社語文中心：寫作教學師資培訓合格</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 聯絡資訊 (Contact) -->
+    <section id="contact" class="pt-8 border-t border-gray-200">
+      <div class="bg-accentLight/60 rounded-2xl p-8 sm:p-12 text-center space-y-4">
+        <h2 class="font-serif text-2xl sm:text-3xl font-bold text-gray-900">開啟專案合作或講座邀約</h2>
+        <p class="text-sm text-gray-600 max-w-lg mx-auto">
+          若有圖書編審、獨立出版諮詢、地方創生刊物統籌、文史走讀規劃或講座邀約，歡迎隨時來信聯繫。
+        </p>
+        <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="mailto:sai.henshujo@gmail.com" class="px-6 py-3 rounded-full bg-accent text-white text-sm font-medium hover:bg-opacity-90 transition-all shadow-sm">
+            sai.henshujo@gmail.com
+          </a>
+          <span class="text-xs text-gray-500 font-mono">0919-956-614</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 頁尾 -->
+  <footer class="border-t border-gray-200/80 py-8 text-center text-xs text-gray-400">
+    <div class="max-w-5xl mx-auto px-6">
+      © <span id="year"></span> 蔡承恩 Cheng-En Tsai. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
